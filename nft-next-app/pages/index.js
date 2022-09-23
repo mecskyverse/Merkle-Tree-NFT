@@ -67,6 +67,7 @@ export default function Home() {
 
       const tx = await nftContract.isValid(proof, leaf);
       tx === true && setVerifyAccount((oldState) => !oldState);
+      if (tx === false) alert("You Account is not WhiteListed");
     } catch (err) {
       console.error(err);
     }
