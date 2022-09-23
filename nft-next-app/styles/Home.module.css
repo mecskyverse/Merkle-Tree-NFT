@@ -6,7 +6,13 @@
   align-items: center;
   font-family: "Courier New", Courier, monospace;
 }
-
+.mint{
+  color: whitesmoke;
+  display: flex;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+}
 
 .footer {
   color: whitesmoke;

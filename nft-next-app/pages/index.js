@@ -99,7 +99,7 @@ export default function Home() {
         const proof = tree.getProof(leaf).map((x) => buf2hex(x.data));
 
         const tx = await nftContract.safeMint(address, proof);
-        await tx.wait();
+
         setMintStatus((oldState) => !oldState);
       }
     } catch (err) {
@@ -174,19 +174,21 @@ export default function Home() {
           </div>
           {renderButton()}
           {verifyAccount && (
-            <button onClick={mintNFT} className={styles.button}>
-              Mint Your NFT
-            </button>
+            <div>
+              <button onClick={mintNFT} className={styles.button}>
+                Mint Your NFT
+              </button>
+            </div>
           )}
         </div>
-        <div className={styles.description}>
-          {mintStatus && "You have successfully MINTED your NFT"}
-        </div>
+
         <div>
           <img className={styles.image} src="./crypto-devs.svg" />
         </div>
       </div>
-
+      <div className={styles.mint}>
+        {mintStatus && "You have successfully MINTED your NFT"}
+      </div>
       <footer className={styles.footer}>Made with &#10084; by Aakash</footer>
     </div>
   );
