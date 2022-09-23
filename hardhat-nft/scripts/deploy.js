@@ -9,6 +9,8 @@ async function main() {
     " 0x90F79bf6EB2c4f870365E785982E1f101E93b906",
     "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
     " 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92267",
+    "0xAF8E45a64eDbbc5f4556d6de8CF5566cD0109D45",
+    "0xD29577917f30cf25C4c16881dA1C399dBE66445E",
   ].map((x) => keccak256(x));
   const tree = new MerkleTree(leaves, keccak256, { sortPairs: true });
   const buf2hex = (x) => "0x" + x.toString("hex");
