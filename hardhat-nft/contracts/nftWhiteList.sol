@@ -16,7 +16,7 @@ contract MyToken is ERC721, Ownable {
         root = _root;
     }
 
-    function safeMint(address to, bytes32[] memory proof) public {
+    function safeMint(address to, bytes32[] calldata proof) public {
         require(
             isValid(proof, keccak256(abi.encodePacked(msg.sender))),
             "Not a part of Allowlist"
@@ -26,8 +26,8 @@ contract MyToken is ERC721, Ownable {
         _safeMint(to, tokenId);
     }
 
-    function isValid(bytes32[] memory proof, bytes32 leaf)
-        internal
+    function isValid(bytes32[] calldata proof, bytes32 leaf)
+        public
         view
         returns (bool)
     {
