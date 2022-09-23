@@ -62,5 +62,17 @@ and open port 3000 of local host
 
 
 
+## How to interact 
+![image](https://user-images.githubusercontent.com/91150257/191973485-8a952d5e-2e6a-4320-8b44-5c0b5f6ff887.png)
 
+1. Connect your metamast account
+2. click on Veriry Account
+3. If you have Account in the merkle tree Then
+4. Account will verify and you will get a button to mint nft
+![image](https://user-images.githubusercontent.com/91150257/191973724-06432925-357d-4b77-8b8c-d446a31e804a.png)
+5. Click on Mint Nft 
+6. Confirm the Transaction from your metamask extension
+![image](https://user-images.githubusercontent.com/91150257/191974774-77149438-953d-43af-b14d-b4befe00ac74.png)
+
+**And Congrats You have succesfully minted your NFT.**
 
