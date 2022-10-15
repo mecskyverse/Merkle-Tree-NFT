@@ -1,5 +1,8 @@
 # Merkle Tree NFT Whitelist Dapp!
+
+Its an NFT project made for the Atom Dao Bounty and the simpler version of this is the winner of that bounty.
 You can checkout the project [HERE](https://merkle-tree-nft-nft-next-app-24ao-nv193m2d0-mecskyverse.vercel.app)
+
 
 ### Setup The project at your system
 
