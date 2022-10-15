@@ -3,7 +3,7 @@
 Its an NFT project made for the Atom Dao Bounty and the simpler version of this is the winner of that bounty.
 You can checkout the project [HERE](https://merkle-tree-nft-nft-next-app-24ao-nv193m2d0-mecskyverse.vercel.app)
 
-
+Merkle-Tree NFT Whitelisting uses the ERC721 based contract to generate NFTs and Merkle Tree helps to keep the record of Whitelisted Address
 ### Setup The project at your system
 
 ``git clone https://github.com/mecskyverse/Merkle-Tree-NFT.git ``
